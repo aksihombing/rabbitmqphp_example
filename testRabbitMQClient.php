@@ -1,7 +1,7 @@
 #!/usr/bin/php
 <?php
-require_once('path.inc');
-require_once('get_host_info.inc');
+require_once('path.inc'); # I think we dont need this !!!! 
+require_once('get_host_info.inc'); # or this either !!!!!
 require_once('rabbitMQLib.inc');
 
 $client = new rabbitMQClient("testRabbitMQ.ini","testServer");
